@@ -380,13 +380,13 @@ function App() {
 
       {/* Social Links */}
       <div className="fixed bottom-0 right-0 p-4 flex space-x-4">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
+        <a href="https://github.com/Sultan-99s/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
           <Github className="h-6 w-6" />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
+        <a href="https://www.linkedin.com/in/md-sultan-moheuddin" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
           <Linkedin className="h-6 w-6" />
         </a>
-        <a href="mailto:contact@example.com" className="text-gray-400 hover:text-blue-400 transition-colors">
+        <a href="mailto:sultan.shaon99@yahoo.com" className="text-gray-400 hover:text-blue-400 transition-colors">
           <Mail className="h-6 w-6" />
         </a>
       </div>
