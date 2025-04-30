@@ -1,10 +1,10 @@
 // Images
-import display_img from "./Public/images/display.jpg";
-import img_1 from "./Public/images/image_1.jpg";
-import img_2 from "./Public/images/image_3.jpg";
+import display_img from "./media/images/display.jpg"
+import img_1 from "./media/images/image_1.jpg";
+import img_2 from "./media/images/image_3.jpg";
 
 // PDF
-import cv_pdf from "./Public/Sultan_Moheuddin.pdf";
+import cv_pdf from "./media/Sultan_Moheuddin.pdf";
 
 
 
