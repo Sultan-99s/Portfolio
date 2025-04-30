@@ -1,4 +1,5 @@
-import React from 'react';
+import { display_img, img_1, img_2, cv_pdf } from "./media";
+
 
 import { Brain, Github, Linkedin, Mail, FileText, ChevronRight, Code2, Database, LineChart, ExternalLink } from 'lucide-react';
 
@@ -28,7 +29,7 @@ function App() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/image_1.jpg"
+            src={display_img}
             alt="AI Background"
             className="w-full h-full object-cover opacity-50"
           />
@@ -60,7 +61,7 @@ function App() {
                   </div>
                   <div>
                     <a 
-                      href="/Public/Sultan_Moheuddin.pdf" 
+                      href={cv_pdf}
                       download
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10 transition-colors"
                     >
@@ -128,28 +129,28 @@ function App() {
                 {/* Add your additional photos here */}
                 <div className="rounded-lg overflow-hidden">
                   <img 
-                    src="/images/display.jpg"
+                    src={img_1}
                     alt="Working on AI Project"
                     className="w-full h-48 object-cover"
                   />
                 </div>
                 <div className="rounded-lg overflow-hidden">
                   <img 
-                    src="/images/photo_2.jpeg"
+                    src={img_2}
                     alt="Conference Presentation"
                     className="w-full h-48 object-cover"
                   />
                 </div>
                 <div className="rounded-lg overflow-hidden">
                   <img 
-                    src="/images/image_1.jpg"
+                    src={img_2}
                     alt="Team Collaboration"
                     className="w-full h-48 object-cover"
                   />
                 </div>
                 <div className="rounded-lg overflow-hidden">
                   <img 
-                    src="/images/image_3.jpg"
+                    src={display_img}
                     alt="Research Lab"
                     className="w-full h-48 object-cover"
                   />
