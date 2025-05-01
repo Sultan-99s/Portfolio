@@ -1,4 +1,4 @@
-import { display_img, img_1, img_2, cv_pdf } from "./media";
+import { display_img, img_1, img_2, cv_pdf, img_3 } from "./media";
 
 
 import { Brain, Github, Linkedin, Mail, FileText, ChevronRight, Code2, Database, LineChart, ExternalLink } from 'lucide-react';
@@ -29,7 +29,7 @@ function App() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src={display_img}
+            src={img_3}
             alt="AI Background"
             className="w-full h-full object-cover opacity-50"
           />
