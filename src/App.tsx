@@ -284,16 +284,15 @@ function App() {
             {/* Publication 1 */}
             <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-semibold text-white mb-2">
-                Advances in Computer Vision for Medical Imaging Analysis
+                REMP: A unique dataset of rare and endangered medicinal plants in Bangladesh for sustainable healing and biodiversity conservation
               </h3>
               <p className="text-gray-400 mb-4">
-                Published in International Journal of Medical Imaging, 2024
+                Published in Data in Brief (Elsevier), 2024. DOI: 10.1016/j.dib.2024.110895
               </p>
               <p className="text-gray-300 mb-4">
-                A comprehensive study on applying deep learning techniques to medical image analysis, 
-                focusing on early disease detection and diagnosis.
+                Developed a dataset of 3,494 annotated images from 16 rare medicinal plant species in Bangladesh through fieldwork and photography. Organized and prepared the dataset for machine learning applications to aid in biodiversity conservation.
               </p>
-              <a href="#" className="text-blue-400 hover:text-blue-300 flex items-center">
+              <a href="https://www.sciencedirect.com/science/article/pii/S2352340924008588#:~:text=Data%20Article-,REMP%3A%20A%20unique%20dataset%20of%20rare%20and%20endangered%20medicinal%20plants,sustainable%20healing%20and%20biodiversity%20conservation" target="_blank" className="text-blue-400 hover:text-blue-300 flex items-center">
                 Read Paper <ExternalLink className="h-4 w-4 ml-1" />
               </a>
             </div>
@@ -301,16 +300,60 @@ function App() {
             {/* Publication 2 */}
             <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-semibold text-white mb-2">
-                Natural Language Processing in Healthcare
+                Machine Learning Model to Define Water Potability Considering Distinctive Chemical Contaminants
               </h3>
               <p className="text-gray-400 mb-4">
-                Conference Paper, AI in Healthcare Summit 2023
+                Published in Springer Conference on Intelligent Computing and Optimization, 2023. DOI : 10.1007/978-3-031-73318-5_3
               </p>
               <p className="text-gray-300 mb-4">
-                Exploring the applications of NLP in processing medical records and improving 
-                patient care through automated analysis.
+                Developed a hybrid meta-learning and few-shot learning model to predict drinking water potability based on diverse chemical contaminants, achieving up to 98% accuracy. The model supports water supply departments in ensuring water quality prior to distribution.
               </p>
-              <a href="#" className="text-blue-400 hover:text-blue-300 flex items-center">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-031-73318-5_3" target="_blank" className="text-blue-400 hover:text-blue-300 flex items-center">
+                Read Paper <ExternalLink className="h-4 w-4 ml-1" />
+              </a>
+            </div>
+            {/* Publication 3 */}
+            <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
+              <h3 className="text-xl font-semibold text-white mb-2">
+                Integration of Deep Learning Based Image Analysis in Lung Cancer Pathology
+              </h3>
+              <p className="text-gray-400 mb-4">
+                Published in 2024 International Conference on Innovations in Science, Engineering and Technology (ICISET). DOI : 10.1109/ICISET62123.2024.11003919
+              </p>
+              <p className="text-gray-300 mb-4">
+                Conducted deep learning-based analysis on lung histopathology Whole Slide Images (WSIs) for tumor segmentation and classification, creating a dataset of ~200,000 processed image patches. Applied CNN, FCN, clustering, and PCA techniques, achieving 85.05% accuracy with the CNN model.
+              </p>
+              <a href="https://ieeexplore.ieee.org/document/11003919" target="_blank" className="text-blue-400 hover:text-blue-300 flex items-center">
+                Read Paper <ExternalLink className="h-4 w-4 ml-1" />
+              </a>
+            </div>
+            {/* Publication 4 */}
+            <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
+              <h3 className="text-xl font-semibold text-white mb-2">
+                 An E-Commerce Website Accessibility Issue Detection and Evaluation System
+              </h3>
+              <p className="text-gray-400 mb-4">
+                Presented at The 15th International Conference of Human-Computer Interaction (HCI). DOI : 10.13140/RG.2.2.30468.64645
+              </p>
+              <p className="text-gray-300 mb-4">
+                Developed an automated system to detect and evaluate accessibility issues in e-commerce websites, focusing on improving user experience for individuals with disabilities. The system analyzes HTML elements and accessibility attributes to ensure compliance with web accessibility standards.
+              </p>
+              <a href="https://www.researchgate.net/publication/387410840_An_E-Commerce_Website_Accessibility_Issue_Detection_and_Evaluation_System" target="_blank" className="text-blue-400 hover:text-blue-300 flex items-center">
+                Read Paper <ExternalLink className="h-4 w-4 ml-1" />
+              </a>
+            </div>
+            {/* Publication 5 */}
+            <div className="bg-gray-900 p-6 rounded-lg shadow-lg">
+              <h3 className="text-xl font-semibold text-white mb-2">
+                Strategies for Effective Malware Analysis and Detection Using Machine Learning Algorithms
+              </h3>
+              <p className="text-gray-400 mb-4">
+                Published in 2024 IEEE International Conference on Computing, Applications and Systems (COMPAS), DOI : 10.1109/COMPAS60761.2024.10797025.
+              </p>
+              <p className="text-gray-300 mb-4">
+                Designed and implemented machine learning-based strategies for effective malware analysis and detection, focusing on behavioral and static feature analysis. The proposed approach enhances early threat identification and system security.
+              </p>
+              <a href="https://www.researchgate.net/publication/387242618_Strategies_for_Effective_Malware_Analysis_and_Detection_Using_Machine_Learning_Algorithms" target="_blank" className="text-blue-400 hover:text-blue-300 flex items-center">
                 Read Paper <ExternalLink className="h-4 w-4 ml-1" />
               </a>
             </div>
